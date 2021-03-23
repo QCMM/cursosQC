@@ -1,0 +1,4 @@
+sympy=1.6.*
+scipy=1.6.*
+qcelemental=0.19.*
+numpy=1.20.*
