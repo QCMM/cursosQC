@@ -1,0 +1,97 @@
+\documentclass{../guias}
+
+\usepackage{tikz}
+%\usepackage[utf8x]{inputenc}
+
+\usetikzlibrary{shapes.geometric, arrows, positioning}
+\newcommand*\Eval[3]{\left.#1\right\rvert_{#2}^{#3}}
+\newcommand{\pecf}[1]{\sqrt{\frac{2}{l}}\sin\left(\frac{#1\pi x}{l}\right)}
+\newcommand{\pecsq}[1]{\frac{2}{l}\sin^2\left(\frac{#1\pi x}{l}\right)}
+\newcommand{\pece}[1]{\frac{#1^2\hbar^2}{8\pi l^2}}
+
+\author{Dr. Stefan Vogt}
+\title{Partícula en una Caja}
+\course{Físicoquímica 3}
+
+\begin{document}
+\guia
+
+\problem{} 
+Determine la magnitud de los siguientes números complejos:
+\begin{enumerate}
+\item $8+5i$
+\item $2-2i$
+\item $10+i$
+\item $0.1-0.5i$
+\end{enumerate}
+
+\problem{}
+Resuelva el problma de valor inicial: $y^{''} + y^{'} -6y = 0$ con las 
+condiciones iniciales $y(0)=1$$y^{'}(0)=0$
+
+\problem{}
+Normalice la siguiente función de onda:
+\begin{equation*}
+    \psi(x) = Ae^{- \frac{1}{2}x^2}
+\end{equation*}
+
+\problem{}
+Calcule la probabilidad que una partícula en una caja 1-D, 
+de largo $l = 1.0 \AA$ y en el estado electrónico $n = 4$ se 
+encuentre entre $l/3 \geq x \geq l/2$.
+
+\problem{}
+Cuando una partícula de masa $9.1\text{x}10^{-28}g$ en una cierta caja 1D pasa
+del estado $n=5$ al estado $n=2$ emite un fotón de frecuencia $6.0\text{x}10^{14}s^{-1}$.
+?`Cuál es el largo de la caja?
+
+\problem{} Considere un electrón en una caja 1-D de largo 0.1nm.
+Encuentre la frecuencia y longitud de onda de un fotón emitido
+cuando el electrón
+\begin{enumerate}
+   \item pasa del estado $n=3$ al $n=2$
+   \item pasa del estado $n=4$ al $n=2$
+\end{enumerate}
+?`Que fotón tiene mayor longitud de onda?
+
+\problem{}
+La frecuencia de absorción de $n=1$ a $n=2$ de para una partícula en una caja 1D es $6.0\text{x}10^{12}s^{-1}$.
+Encuentre frecuencia de absorción de $n=2$ a $n=3$, para este sistema.
+
+\problem{}
+Una partícula se encuentra en el estado fundamental de una 
+caja 1D de 20nm. Calcule la probabilidad que la partícula 
+se encuentre entre los siguientes valores:
+\begin{enumerate}
+    \item $x = 9.95$ y $10.0$ nm
+    \item $x = 2.95$ y $3.05$ nm
+    \item $x = 19.90$ y $20.00$ nm
+    \item En la primera mitad derecha
+    \item En el tercio del medio
+\end{enumerate}
+
+\problem{} Calcule la energía para los primeros tres estados de un electrón y de un protón
+en una caja de longitud $5.00$nm y en una de $50.0$nm.
+
+\problem{}.
+Un partícula de masa m se mueve en una caja 1D de largo $l$, con
+fronteras en $x=0$ y $x=l$. Las funciones de onda normalizadas 
+están dadas por: 
+\begin{equation*}
+    \psi(x) = \sqrt{\frac{2}{l}}sen\Big(\frac{n\pi x}{l}\Big)
+\end{equation*}
+con energía:
+\begin{equation*}
+    E_{n} = \frac{n^2h^2}{8ml^2}
+\end{equation*}
+Calcule la probabilidad que la partícula sea encontrada en la región $0 \geq x \geq \frac{l}{4}$.
+
+\problem{} Un estudiante 1D que obtuvo una nota muy mala en un control. Es tirado a un pozo de longitud 5m como castigo y para 
+           que pueda estudiar sin distracciones. Al tratar de aprender la materia camina  de un lado a otro
+           a velocidad constante de 1.5 m/s. ?` En que estado cuántico se encuentra?
+
+\problem{} La incertidumbre de una partícula en una caja 1D es el largo de la caja. Calcule el nivel de energía mínimo aproximado
+en el cual se puede encontrar la partícula. ¿Por qué la partícula no se puede encontrar en reposo como en la mecánica clásica?  \\
+
+
+\end{document}
